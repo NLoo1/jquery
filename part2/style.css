@@ -6,8 +6,18 @@
 body{
     background-color: aliceblue;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
 }
+
+#movies{
+    max-height: 100vh;
+    overflow:scroll;
+}
+
+
 
